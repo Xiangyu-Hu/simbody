@@ -42,6 +42,7 @@
                 "WINDOWS_USE_EXTERNAL_LIBS": "ON",
                 "CMAKE_C_COMPILER_LAUNCHER": "ccache",
                 "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
+                "VCPKG_TARGET_TRIPLET": "x64-windows-static",
                 "CMAKE_INSTALL_PREFIX": "'${sourceDir}/../simbody'",
                 "BUILD_VISUALIZER": "OFF",
                 "BUILD_EXAMPLES": "OFF",
