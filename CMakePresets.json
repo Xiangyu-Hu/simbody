@@ -39,11 +39,10 @@
                 "CMAKE_BUILD_TYPE": "Release",
                 "CMAKE_C_COMPILER": "icx-cl",
                 "CMAKE_CXX_COMPILER": "icx-cl",
-                "CMAKE_TOOLCHAIN_FILE": "'${sourceDir}/../vcpkg/scripts/buildsystems/vcpkg.cmake'",
-                "VCPKG_TARGET_TRIPLET": "x64-windows-static",
+                "WINDOWS_USE_EXTERNAL_LIBS": "ON",
                 "CMAKE_C_COMPILER_LAUNCHER": "ccache",
                 "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
-                "CMAKE_INSTALL_PREFIX": "'${env:HOME}/simbody'",
+                "CMAKE_INSTALL_PREFIX": "'${sourceDir}/../simbody'",
                 "BUILD_VISUALIZER": "OFF",
                 "BUILD_EXAMPLES": "OFF",
                 "INSTALL_DOCS": "OFF"
@@ -67,7 +66,10 @@
                 "SPHINXSYS_USE_SYCL": "ON",
                 "CMAKE_TOOLCHAIN_FILE": "'${sourceDir}/../vcpkg/scripts/buildsystems/vcpkg.cmake'",
                 "CMAKE_C_COMPILER_LAUNCHER": "ccache",
-                "CMAKE_CXX_COMPILER_LAUNCHER": "ccache"
+                "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
+                "BUILD_VISUALIZER": "OFF",
+                "BUILD_EXAMPLES": "OFF",
+                "INSTALL_DOCS": "OFF"
             }
         },
         {
