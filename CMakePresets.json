@@ -43,11 +43,10 @@
                 "VCPKG_TARGET_TRIPLET": "x64-windows-static",
                 "CMAKE_C_COMPILER_LAUNCHER": "ccache",
                 "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
-                "SPHINXSYS_USE_SYCL": "ON",
-                "SPHINXSYS_2D": "OFF",
-                "SPHINXSYS_BUILD_2D_EXAMPLES": "OFF",
-                "SPHINXSYS_BUILD_OPTIMIZATION_EXAMPLES": "OFF",
-                "SPHINXSYS_BUILD_PYTHON_INTERFACE": "OFF"
+                "CMAKE_INSTALL_PREFIX": "'${env:HOME}/simbody'",
+                "BUILD_VISUALIZER": "OFF",
+                "BUILD_EXAMPLES": "OFF",
+                "INSTALL_DOCS": "OFF"
             }
         },
         {
@@ -133,7 +132,9 @@
                 "CMAKE_TOOLCHAIN_FILE": "'${env:HOME}/vcpkg/scripts/buildsystems/vcpkg.cmake'",
                 "CMAKE_C_COMPILER_LAUNCHER": "ccache",
                 "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
+                "CMAKE_INSTALL_PREFIX": "'${env:HOME}/simbody'",
                 "BUILD_VISUALIZER": "OFF",
+                "BUILD_EXAMPLES": "OFF",
                 "INSTALL_DOCS": "OFF"
             }
         },
@@ -155,7 +156,9 @@
                 "CMAKE_TOOLCHAIN_FILE": "'${env:HOME}/vcpkg/scripts/buildsystems/vcpkg.cmake'",
                 "CMAKE_C_COMPILER_LAUNCHER": "ccache",
                 "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
+                "CMAKE_INSTALL_PREFIX": "'${env:HOME}/simbody'",
                 "BUILD_VISUALIZER": "OFF",
+                "BUILD_EXAMPLES": "OFF",
                 "INSTALL_DOCS": "OFF"
             }
         }
