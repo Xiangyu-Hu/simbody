@@ -37,8 +37,8 @@
             "cacheVariables": {
                 "CMAKE_MAKE_PROGRAM": "ninja",
                 "CMAKE_BUILD_TYPE": "Release",
-                "CMAKE_C_COMPILER": "icx-cl",
-                "CMAKE_CXX_COMPILER": "icx-cl",
+                "CMAKE_C_COMPILER": "clang-cl",
+                "CMAKE_CXX_COMPILER": "clang-cl",
                 "WINDOWS_USE_EXTERNAL_LIBS": "ON",
                 "CMAKE_C_COMPILER_LAUNCHER": "ccache",
                 "CMAKE_CXX_COMPILER_LAUNCHER": "ccache",
